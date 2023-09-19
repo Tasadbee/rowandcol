@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+.row{
+    color: white;
+    width: 1100px;
+    padding: 5px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.cols{
+    padding: 5px;
+    height: 100px;
+    border: 3px solid rgb(83, 195, 131);
+    background-color: rgb(83, 195, 131);
+    flex-grow: 0.25
+}
+.cols:nth-child(2){
+ margin-left: 10px;
+}
+.col__under{
+    height: 45px;
+    border: 1px solid black;
+    border: 3px solid rgb(83, 195, 131);
+    background-color: rgb(83, 195, 131);
+}
+.col__under:last-child{
+    margin-top: 10px
+}
+
+.second__cols{
+    height: 45px;
+    border: 1px solid black;
+    border: 3px solid rgb(83, 195, 131);
+    background-color: rgb(83, 195, 131);
+}
+.second__cols:last-child{
+    margin-top: 20px;
+}
+.row2{
+    color: white;
+    padding: 5px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.third{
+    border: 1px solid black;
+    border: 3px solid rgb(83, 195, 131);
+    background-color: rgb(83, 195, 131);
+    margin-left: 5px;
+}
+.next{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.wrapper{
+    padding: 2px;
+    height: 500px;
+}
+.first{
+    flex-grow: 1;
+}
+.cols__first{
+    border: 3px solid black;
+    height: 345px;
+    background-color: greenyellow;
+}
+.cols__second{
+    display: flex;
+    justify-content: space-between;
+    height: 130px;
+    margin-top: 5px;
+}
+.second__cols__item{
+    border: 3px solid black ;
+    background-color: greenyellow;
+    margin-left: 3px;
+    flex-grow: 1;
+}
+.col__section__second{
+    border: 3px solid black;
+    background-color: greenyellow;
+    height: 480px;
+}
+.col__section__third{
+    margin-left: 5px;
+}
+.section__third__items{
+    border: 3px solid black;
+    background-color: greenyellow;
+    height: 155px;
+}
+.section__third__items:nth-child(2){
+    margin-top: 5px;
+}
+.section__third__items:nth-child(3){
+    margin-top: 7px;
+}
